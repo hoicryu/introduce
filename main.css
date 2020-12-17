@@ -6,8 +6,12 @@ header{
 }
 header nav{
     border: 1px solid black;
+}   
+form {
+    display: flex;
+}    
     
-}
+
 header nav ul{
     display: flex;
 }
@@ -17,7 +21,7 @@ header nav ul li{
 }
 main{
     display: flex;
-    background-image: url(./러닝크루.png);
+    background-image: url(./러닝크루.png);
 }
 section{
     color: white;
