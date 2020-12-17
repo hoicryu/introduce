@@ -7,9 +7,13 @@ header{
 header nav{
     border: 1px solid black;
 }   
-form {
-    display: flex;
-}    
+
+#로그인 {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
     
 
 header nav ul{
