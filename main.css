@@ -1,87 +1,82 @@
-header{
-    height: auto;
-    background-color: white;
-    margin: 10px;
-    padding: 10px;
+header {
+  height: auto;
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+  color: white;
 }
-header nav{
-    border: 1px solid black;
-}   
-
+header nav {
+  border: 1px solid black;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin: 20px;
+}
 #로그인 {
   display: flex;
   position: absolute;
   top: 30px;
   right: 50px;
 }
-    
 
-header nav ul{
-    display: flex;
+main {
+  display: flex;
+  background-image: url(./러닝크루.png);
 }
-header nav ul li{
-    list-style: none;
-    margin: 20px; 
+section {
+  color: white;
+  border: 5px solid white;
+  width: 50%;
+  background-color: ;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
-main{
-    display: flex;
-    background-image: url(./러닝크루.png);
+section h1 {
 }
-section{
-    color: white;
-    border: 5px solid white;
-    width: 50%;
-    background-color:;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box;
+article {
+  border: 3px solid white;
+  background-color: ;
+  margin-bottom: 10px;
+  padding: 20px;
 }
-section h1{
-    
+article h2 {
 }
-article{
-    border: 3px solid white;
-    background-color: ;
-    margin-bottom: 10px;
-    padding: 20px;
+article p {
 }
-article h2{
+aside {
+  border: 5px solid white;
+  width: 50%;
+  background-color: ;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+aside img {
+  width: 400px;
+  height: 500px;
+}
+video {
+  border: 3px white solid;
+  margin-left: 10%;
+}
+footer {
+  background-color: gainsboro;
+  margin: 10px;
+  padding: 20px;
+  border: solid 1px black;
+}
+footer address {
+}
+footer address a {
+}
+form {
+  display: inline;
+}
+select {
+  display: inline;
+}
 
-}
-article p{
-
-}
-aside{
-    border: 5px solid white;
-    width: 50%;
-    background-color:;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-aside img{
-    width: 400px;
-    height: 500px;
-}
-video{
-    border: 3px white solid;
-    margin-left: 10%;
-}
-footer{
-    background-color: gainsboro;
-    margin: 10px;
-    padding: 20px;
-    border: solid 1px black;
-}
-footer address{
-
-}
-footer address a{
-
-}
-form{
-    display: inline;
-}
-select{
-    display: inline;
-}
